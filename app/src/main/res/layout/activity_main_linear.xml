@@ -40,12 +40,12 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:padding="0dp"
             android:src="@drawable/flag" />
 
         <Switch
             android:id="@+id/switch_1"
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:text="@string/checkbox"
 
