@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_linear);
 
 
-
+/*
         //find button 1 from what was loaded, add a click listener
         Button b1 = findViewById(R.id.button1);
         if(b1 != null)
@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
             String answer = input.getText().toString(); // will read what the user put
             Log.i("Message", "You typed:" + answer);
         });
+    }
+    */
     }
 }
 
