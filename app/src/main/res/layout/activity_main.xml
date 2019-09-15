@@ -9,5 +9,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_message" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:background="#ADFF2F"
+        android:layout_weight="1"
+
+        />
 
 </LinearLayout>
