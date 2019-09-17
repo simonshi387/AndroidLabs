@@ -4,27 +4,36 @@
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/text1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello_message"
         android:textSize="30dp" />
 
+    <View
+        android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/text1"
+        android:layout_alignRight="@+id/strut"
+        android:layout_alignParentLeft="true"
         android:text="@string/item1"/>
     <CheckBox
         android:id="@+id/checkbox_all"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/button1"
         android:layout_below="@id/text1"
+        android:layout_alignLeft="@+id/strut"
+        android:layout_alignParentRight="true"
         android:text="@string/item2"
         android:layout_marginTop="10dp"
-        android:layout_alignParentRight="true"/>
+       />
 
     <ImageButton
         android:id="@+id/button3"
