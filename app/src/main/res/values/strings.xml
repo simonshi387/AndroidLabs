@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">Android Labs</string>
-    <string name="hello_message">Look at my GUI</string>
-    <string name="item1">Click here</string>
-    <string name="item2">Check this out!</string>
-    <string name="checkbox">Switch on/off</string>
-    <string name="edittext1">Type here</string>
+    <string name="app_name">androidlabs</string>
+    <string name="welcome">Hello world!</string>
+    <string name="firstText">Enter your email address:</string>
+    <string name="emailInput">Type email here</string>
+    <string name="secondText">Type your password:</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="p2firstText">Your profile</string>
+    <string name="p2secondText">Your name:</string>
+    <string name="p2nameInput">Enter your name</string>
+    <string name="p2thirdText">Your email:</string>
+    <string name="p2emailInput">Enter your email</string>
+    <string name="p2fourthText">Your picture:</string>
+    <string name="p2fifthText">Click the button above to take a picture</string>
 </resources>
