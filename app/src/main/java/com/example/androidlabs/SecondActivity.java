@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class        SecondActivity extends AppCompatActivity {
     static final int REQUEST_IMAGE_CAPTURE = 1;
+    Button chatButton;
     ImageButton camara;
     public static final String ACTIVITY_NAME = "SecondActivity";
     @Override
@@ -27,6 +28,12 @@ public class        SecondActivity extends AppCompatActivity {
         emailInput.setText(whatUserTyped);
         camara = findViewById(R.id.pictureButton);
         camara.setOnClickListener((view) ->{dispatchTakePictureIntent();} );
+
+        chatButton = findViewById(R.id.p2chatButton);
+        chatButton.setOnClickListener(clk -> {
+                    Intent goToPage3 = new Intent(SecondActivity.this, ListViewExample1.class);
+                    startActivity(goToPage3);
+                });
         Log.e(ACTIVITY_NAME,"In function:" +"onCreate");
     }
 
