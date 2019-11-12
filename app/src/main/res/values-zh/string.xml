@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Android Labs</string>
-    <string name="hello_message">请欣赏我的界面</string>
-    <string name="item1">点击这里</string>
-    <string name="item2">请勾这里！</string>
-    <string name="checkbox">开关  开/关</string>
-    <string name="edittext1">请在这里输入</string>
-</resources>
